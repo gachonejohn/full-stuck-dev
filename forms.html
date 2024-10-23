@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+
+<h2>Java class students registration form</h2>
+
+<form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" name="pwd"><br><br>
+
+    <label for="upload">Profile picture</label>
+    <input type="file" id="upload" name="upload"><br><br>
+
+
+<!--    using the same "name" for the radio buttons so that only one option can be selected-->
+    <label for="fmale">Female</label>
+    <input type="radio" id="fmale" name="gender">
+
+    <label for="male">Female</label>
+    <input type="radio" id="male" name="gender"><br><br>
+
+    <label for="cours">Select course</label>
+    <select name="course" id="cours">
+        <option value="js">Javascript</option>
+        <option value="py">Python</option>
+        <option value="html">HTML</option>
+    </select><br><br>
+
+    <input type="submit" value="Register here">
+</form>
+
+</body>
+</html>

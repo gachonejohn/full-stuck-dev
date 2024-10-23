@@ -1,0 +1,9 @@
+table{
+    width: 100%;
+    border-collapse: collapse; /*to prevent repetition of borders and have a clean table*/
+    font-family: sans-serif;
+}
+th,td{
+    border: 2px solid green;
+    padding: 15px;
+}

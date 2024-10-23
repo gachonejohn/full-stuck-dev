@@ -1,0 +1,19 @@
+.cars{
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.fruits{
+    background-color: orange;
+    padding: 15px;
+    margin: 20px ;
+}
+
+#students{
+    text-align: center;
+    background-color: aqua;
+}
+.myImage{
+    width: 400px;
+}
